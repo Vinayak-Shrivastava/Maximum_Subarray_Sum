@@ -4,7 +4,7 @@ int max = -2147483648;                       // max variable taken as the minimu
 int max_subarr_sum( int A[], int n )          //find the required max sum
 {
     int a=0,b,i,s=0;                         // a and b are used to create a subarray
-    for(a=0;a<n;a++)                          // a runs through the whole array from left to right
+    for(a=0;a<n;a++)                          // a makes the left end of subarray . it runs through the whole array from left to right
     {
         for(b=a;b<n;b++)                     // b makes the right end of a subarray by running from a to right end
         {
